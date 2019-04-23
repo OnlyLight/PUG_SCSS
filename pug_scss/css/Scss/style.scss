@@ -1,6 +1,7 @@
 @import "./common/font";
 
 body {
+    position: relative;
     @import "navbar";
     @import "banner";
     @import "chat";

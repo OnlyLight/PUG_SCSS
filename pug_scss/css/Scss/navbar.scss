@@ -52,13 +52,13 @@
         transition: 200ms ease;
       }
 
-      &:hover:not(.nav-active)::after {
+      &:hover:not(.active)::after {
         width: 100%;
       }
     }
   }
 }
 
-.nav-active {
+.active {
   border-bottom: 1px solid rgba(255,255,255,1);
 }

@@ -38,11 +38,6 @@ $(document).ready(function(){
         }
     });
 
-    $(".nav .nav-link").on("click", function(){
-        $(".nav").find(".nav-active").removeClass("nav-active");
-        $(this).addClass("nav-active");
-    });
-
     $("#btn-chat-onl").click(function() {
         $("#chat-onl").toggleClass("open");
     });
